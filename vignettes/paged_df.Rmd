@@ -1,0 +1,30 @@
+---
+title: "Paged data frame test"
+description: >
+  Ensure data frames are rendered correctly.
+output: 
+  html_document:
+    df_print: paged
+vignette: >
+  %\VignetteIndexEntry{Paged data frame test}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Data frames
+
+### IRIS
+```{r}
+iris
+```
+### mtcars
+```{r}
+as.data.frame(mtcars)
+```

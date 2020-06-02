@@ -33,3 +33,5 @@ function reference, and vignettes will be rendered into `articles/`.
 Read `vignette("pkgdown")` for more details and to learn how to
 customise your site.
 
+## Overwrite rules
+Any extra assets for the generated static site should placed inside `R_package_root/pkgdown/` prefixed with `extra`, e.g. `extra.css`. 

@@ -365,3 +365,9 @@ mark {
     content: "";
   }
 }
+
+/*Show data frame header columns*/
+div.pagedtable-header-name {
+  overflow: visible;
+}
+

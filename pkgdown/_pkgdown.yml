@@ -28,12 +28,13 @@ articles:
   - linking
   - search
   - metadata
+  - paged_df
 - title: Testing
   desc: >
     These articles are used to test various pkgdown features that can not
     easily be tested automatically.
   contents:
-  - starts_with("test")
+  - starts_with("test") # temporarily disble the tests
 
 reference:
 - title: Build
