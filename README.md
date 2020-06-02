@@ -8,7 +8,7 @@ The original `pkgdown` package doesn't allow paged data frame rendering.
 
 ``` r
 # Install development version from GitHub
-devtools::install_github("Pardigm4/pkgdown")
+devtools::install_github("Paradigm4/pkgdown")
 ```
 
 ## Usage
